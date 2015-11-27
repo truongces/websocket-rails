@@ -1,9 +1,11 @@
 {
-  "name": "web-socket-rails",
+  "name": "websocket-rails-javascript",
+  "version": "0.0.0",
+  "homepage": "https://github.com/truongces/websocket-rails",
   "authors": [
-    "Unknown"
+    "websocketrails"
   ],
-  "description": "",
+  "description": "websocket rails js library for frontend",
   "main": [
     	"websocket_rails.js",
 	"event.js",
@@ -12,14 +14,12 @@
 	"websocket_connection.js",
 	"channel.js"
   ],
-
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:truongces/websocket-rails.git"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    
-  }
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "web",
+    "socket"
+  ],
+  "license": "MIT"
 }
-
